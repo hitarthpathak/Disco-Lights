@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disco-lights {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#box-1 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    animation-name: disco-1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-1 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+#box-2 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    animation-name: disco-2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-2 {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: green;
+    }
+}
+
+#box-3 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    animation-name: disco-3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-3 {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+#box-4 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    animation-name: disco-4;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-4 {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: orange;
+    }
+}
+
+#box-5 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    animation-name: disco-5;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-5 {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+#box-6 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    background-color: red;
+    animation-name: disco-6;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-6 {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: white;
+    }
+}
+
+#box-7 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    background-color: red;
+    animation-name: disco-7;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-7 {
+    from {
+        background-color: orange;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+#box-8 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    background-color: red;
+    animation-name: disco-8;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-8 {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: green;
+    }
+}
+
+#box-9 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    background-color: red;
+    animation-name: disco-9;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-9 {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+#box-10 {
+    border: 2px solid black;
+    height: 20%;
+    width: 10%;
+    background-color: red;
+    animation-name: disco-10;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes disco-10 {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: red;
+    }
+}
